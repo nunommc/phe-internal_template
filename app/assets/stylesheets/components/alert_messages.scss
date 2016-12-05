@@ -1,0 +1,14 @@
+.alert {
+  padding-right: 3em;
+  padding-left: 3em;
+  &-cookie {
+    background-color: $mid-gray;
+    color: $black;
+    margin-bottom: 0;
+  }
+  &-message {
+  }
+  .close {
+    opacity: 0.8;
+  }
+}

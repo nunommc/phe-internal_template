@@ -1,5 +1,5 @@
 module Phe
-  module InternalTemplates
+  module InternalTemplate
     VERSION = "0.1.0"
   end
 end
