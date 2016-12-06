@@ -8,7 +8,7 @@ module Phe
 
         def cookie_accepted?
           return true if cookies[:cookie_eu_consented]
-          cookies[:cookie_eu_consented] = { value: true }
+          cookies.permanent[:cookie_eu_consented] = { value: true }
           false
         end
 
