@@ -1,8 +1,8 @@
 <% unless cookie_accepted? %>
   <div class='alert alert-cookie fade in'>
-    <span class="alert-message">
-      <%= t(:cookie_message) %>
-    </span>
+    <p class="alert-message">
+      <%= t(:cookie_message_html) %>
+    </p>
     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
   </div>
 <% end %>

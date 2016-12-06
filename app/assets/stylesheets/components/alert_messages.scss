@@ -1,14 +1,19 @@
 .alert {
-  padding-right: 3em;
-  padding-left: 3em;
   &-cookie {
     background-color: $mid-gray;
     color: $black;
     margin-bottom: 0;
+
+    .close {
+      opacity: 0.8;
+      float: none;
+      position: absolute;
+      top: 0.8em;
+      right: 1em;
+    }
   }
   &-message {
-  }
-  .close {
-    opacity: 0.8;
+    padding-right: 2em;
+    padding-left: 2em;
   }
 }
