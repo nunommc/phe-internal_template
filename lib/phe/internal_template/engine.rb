@@ -8,7 +8,8 @@ module Phe
 
   		initializer "phe-internal_template.assets.precompile" do |app|
         app.config.assets.precompile += [
-	        /phe-internal_template.scss$/
+          /phe-internal_template.scss$/,
+	        /phe-internal_template.js$/
 	      ]
       end
 
